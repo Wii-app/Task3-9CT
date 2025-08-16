@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-DATA_PATH = "your_data.csv"  # Change to your actual CSV filename
+DATA_PATH = "Gaming_Behaviour.csv"  # Change to your actual CSV filename
 df = pd.read_csv(DATA_PATH)
 
 def display_dataset_preview():
